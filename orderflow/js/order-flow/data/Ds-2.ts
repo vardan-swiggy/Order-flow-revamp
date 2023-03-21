@@ -1,7 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 //Possibility 1
 
-export interface CoreOrderConfirmationViewModel {}
+export interface CoreOrderConfirmationViewModel {
+    
+}
 
 interface StoreLiteOrderConfirmationViewModel
   extends CoreOrderConfirmationViewModel {}

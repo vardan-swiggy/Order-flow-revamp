@@ -1,0 +1,13 @@
+
+- core-network
+- core-utils
+- core-modules    
+    - ftueModule
+    - configModule
+    - complianceModule
+    - mapsModule
+    - audioPlayerModule
+    - cameraModule
+    - analyticsModule
+- core-localisation
+- core-analytics

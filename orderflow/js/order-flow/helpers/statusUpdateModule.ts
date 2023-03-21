@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-// Calling Native MOdule to update the order status
+// Calling Native Module to update the order status
 // log analytics for attempt
 // log analytics for success
 // log analytics for failure

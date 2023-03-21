@@ -1,0 +1,57 @@
+Top level
+    - order-flow
+        -ui
+            -compounds || DLS snowflakes
+        -screens
+            - order_assigned => order-confirm & order-reject
+            - order_arrived 
+            - order_pickedup
+            - order_reached
+            - order_delivered
+            - ...other-screens
+        -api
+            - rx-de --> Req types & Res types & transform layer & analytics related to API calls
+            - de-cx
+            - alchol-flow
+            - geofence
+            - sh-v1
+            - sh-v2
+            - sh-v3
+            -..other flow
+        -helper
+            - coreDataHelpers
+            - statusUpdateHelper(This can have multiple implementation status helper being an interface
+            )
+            - otherHelpers
+        -wrappers
+            - LoggerWrapper
+            - ConfigWrapper
+            - AnalyticsWrapper
+            - ..otherwrappers
+        
+Screen level file structure
+    -order-confirm 
+        -data
+            -transformers
+                -default
+                -food
+                -instamart
+                -pudo
+            -models
+                -core-> OrderConfirmationModel
+                -default-> OrderConfirmationModel
+                -instamart-> OrderConfirmationModel
+                -pudoOrder-> ConfirmationModel
+        -helpers
+        -ui
+            -default
+                -container
+                -view
+            -food
+                -view
+            -instamart
+                -view
+            -instamart-return
+            -other-variations
+                -view
+

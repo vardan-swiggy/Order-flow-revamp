@@ -74,8 +74,7 @@ interface FoodOrderConfirmationViewModel extends CoreOrderConfirmationViewModel{
 interface PudoOrderConfirmationViewModel extends CoreOrderConfirmationViewModel{
 }
 
-type 
-
+e 
 
 export type OrderConfirmationViewModel = {
   loading: boolean;
@@ -95,6 +94,8 @@ export type OrderConfirmationViewModel = {
   };
   error: {};
 };
+
+/
 
 ViewMOdel BusinessLine Logic 
 

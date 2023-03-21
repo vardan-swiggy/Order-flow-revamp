@@ -26,3 +26,8 @@
 
 // There will be more idea here is to create the helpers that can be used anywhere and
 // we can make helpers depend upon these and viewmodels can also use these helpers
+
+// What should we make this
+//     simple functions
+//     selectors
+//     reselect lib
