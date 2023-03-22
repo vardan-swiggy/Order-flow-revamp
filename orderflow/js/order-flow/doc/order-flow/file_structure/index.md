@@ -39,9 +39,9 @@ Screen level file structure
                 -pudo
             -models
                 -core-> OrderConfirmationModel
-                -default-> OrderConfirmationModel
-                -instamart-> OrderConfirmationModel
-                -pudoOrder-> ConfirmationModel
+                -default-> DefaultOrderConfirmationModel
+                -instamart-> InstamartOrderConfirmationModel
+                -pudoOrder-> PudoOrderOrderConfirmationModel
         -helpers
         -ui
             -default
