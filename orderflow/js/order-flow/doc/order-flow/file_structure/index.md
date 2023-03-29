@@ -42,6 +42,8 @@ Screen level file structure
                 -default-> DefaultOrderConfirmationModel
                 -instamart-> InstamartOrderConfirmationModel
                 -pudoOrder-> PudoOrderOrderConfirmationModel
+            - reducers
+                - coreReducers
         -helpers
         -ui
             -default

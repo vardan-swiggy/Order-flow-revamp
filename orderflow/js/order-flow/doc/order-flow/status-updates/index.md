@@ -1,6 +1,7 @@
 Flow for the status updates on the new ux4 screens
     statusUpdateHelper --> SwiggyRNOrderFlowModule --> EntitySyncServiceV2
 
+Sample code for the flow
 
 StatusUpdateHelper 
     interface {

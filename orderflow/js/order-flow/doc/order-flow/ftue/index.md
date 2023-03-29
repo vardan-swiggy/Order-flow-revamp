@@ -1,6 +1,8 @@
 For the First time user experience the separate module will be developed which 
 will handle the following.
 
+Note:- Do not pollute container or other components for FTUE
+
     - Keep track of how many times the feature card has been shown
     - update the counter when the user sees the feature
     - Handle whether to reset the feature config value on the logout or not
